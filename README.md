@@ -1,1 +1,1 @@
-# bartender-chat-bot-open-AI
+# Simple Barman chat bot Open AI
