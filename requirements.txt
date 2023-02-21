@@ -2,4 +2,5 @@ openai
 python-dotenv
 colorama
 Open AI API Key. This is free + open source from Open AI (Generate one, store it safe in a hidden folder, or sumblime text file so the bot works) 
-Keep in mind not to include the API Key in your code, point to the virtualenv where it's stored, or your .txt file instead. This could lead to not so great things if this is ignored. 
+Keep in mind not to include the API Key in your code, point to the virtualenv where it's stored, or your .txt file instead. 
+This could lead to not so great things if this is ignored. 
