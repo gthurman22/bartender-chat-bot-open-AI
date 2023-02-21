@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import os
 import openai
 from dotenv import load_dotenv
@@ -13,7 +7,7 @@ from colorama import Fore, Back, Style
 load_dotenv()
 
 # configure OpenAI
-with open('hidden.txt') as file:
+with open('hidden.txt') as file:  #You can import your API key several ways, creating a .txt file was my choice, (or Hidden folder, point to path)
     openai.api_key = file.read()
 
 
@@ -134,16 +128,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
